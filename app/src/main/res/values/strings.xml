@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppForRiceNitrogen</string>
+    <string name="tv_Vertical">垂直</string>
+    <string name="tv_Horizontal">水平</string>
+    <string name="bt_Capture">Capture</string>
+    <string name="bt_Run">Run</string>
+    <string name="tv_VertNumb_NoUesed">VertIncl</string>
+    <string name="tv_VertNumb">VtN</string>
+    <string name="tv_HoztNumb">HtN</string>
+    <string name="bt_Change">Change</string>
+    <string name="tv_cameraforleaf">请将叶片置于线框内</string>
+    <string name="bt_Capture_for_Leaf">CaptureforLeaf</string>
+    <string name="bt_Run_leaf">RunLeaf</string>
+    <string name="bt_Run_Canopy">RunCanopy</string>
+    <string name="tv_canopy_text">冠层孔隙度T:</string>
+    <string name="tv_canopy_result">CanopyResult</string>
+    <string name="bt_Run_leaf_with_wireframe">RunLeafCut</string>
+    <string name="bt_run_leaf_cut">RunLeaf2</string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_take">确定</string>
+    <string name="tv_nitrogen_level_text">Nitrogen Level</string>
+    <string name="tv_nitrogen_level_numb">2</string>
+    <string name="tv_nitrogen_content">12.5</string>
+    <string name="tv_nitrogen_unit">kg/rai</string>
+</resources>

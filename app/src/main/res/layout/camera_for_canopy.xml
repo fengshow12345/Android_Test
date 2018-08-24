@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <SurfaceView
+        android:id="@+id/sfv_Camera_for_Canopy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.10" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/tv_VertNumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/tv_VertNumb"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+
+
+            <TextView
+                android:id="@+id/tv_Vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Vertical"
+                android:textColor="#efeded"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_cutoffline"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/linearLayout3"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/linearLayout4">
+
+
+            <TextView
+                android:id="@+id/tv_HoztNumb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/tv_HoztNumb"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+
+
+            <TextView
+                android:id="@+id/tv_Horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Horizontal"
+                android:textColor="#efeded"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bt_Capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="capture"
+            android:text="@string/bt_Capture"
+            android:textSize="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_Run"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/bt_Run"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/bt_Change"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:onClick="Change"
+                android:text="@string/bt_Change"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

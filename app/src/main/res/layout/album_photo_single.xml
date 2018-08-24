@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageViewSingle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.97"
+        android:background="@drawable/bg_border1"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewSingle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="April 10,2017"
+            android:textColor="#898888"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_location_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Wuhan, Hubei, China"
+            android:textColor="#696868"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Sunny"
+            android:textColor="#898888"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_coordinate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Coordinate:"
+            android:textColor="#141414"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E "
+                android:textColor="#141414"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_coordinate_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="114°41'"
+                android:textColor="#141414"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=",   "
+                android:textColor="#141414"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N "
+                android:textColor="#141414"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_coordinate_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30°58'"
+                android:textColor="#141414"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nitrogen Level: "
+                android:textColor="#141414"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_nitrogen_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textColor="#ca0303"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
